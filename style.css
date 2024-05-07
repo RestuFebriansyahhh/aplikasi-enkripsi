@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4068ab;
+  margin: 0;
+  padding: 0;
+}
+
+.appbar {
+  background-color: #212221;
+  color: #ffffff;
+  padding: 2px 2px;
+  position: fixed;
+  /* Mengatur posisi menjadi tetap */
+  top: 0;
+  /* Meletakkan appbar di bagian atas */
+  left: 50;
+  width: 100%;
+  /* Lebarkan appbar secara penuh */
+  z-index: 100;
+  /* Mengatur urutan tampilan */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#result {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-height: 50px;
+  background-color: #f9f9f9;
+}
+
+footer {
+  text-align: center;
+  color: #666;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px 0;
+}
